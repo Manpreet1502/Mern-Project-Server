@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const Budget = new mongoose.Schema({
+const CategoriesSchema = new mongoose.Schema({
     //adding user to our model -> class 4-> authenticating and registering a user.
     user: {
         type: Schema.Types.ObjectId,
